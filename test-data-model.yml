@@ -1,0 +1,61 @@
+dataModelId: d4de1897-680e-4266-b866-f42ef3ee16e6
+name: My Data Model
+url: https://staging.sigmacomputing.io/papercranestaging/data-model/My-Data-Model-6tFS23TT14Ozh6o8X7khBY
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: 9xx8j7MM78A74eLpBeKgJtZIvssJk
+folderId: cc5ffa22-7640-485e-834e-be3bc8bf584e
+createdBy: 9xx8j7MM78A74eLpBeKgJtZIvssJk
+updatedBy: 9xx8j7MM78A74eLpBeKgJtZIvssJk
+createdAt: '2026-10-23T16:02:00.026Z'
+updatedAt: '2026-10-23T16:02:36.843Z'
+schemaVersion: 1
+pages:
+  - id: EVRUKJZybU
+    name: Page 1
+    elements:
+      - id: UDSpua5jDZ
+        kind: table
+        source:
+          connectionId: a9d45cfe-ff65-4515-8193-a7072602a1ee
+          kind: warehouse-table
+          path:
+            - SEMANTIC_VIEWS_DEMO
+            - SEMANTIC_VIEWS
+            - PLUGS_SEMANTIC_VIEW
+        columns:
+          - id: inode-6mViAGR1qxtzBI16TydsFS/DAY
+            formula: '[PLUGS_SEMANTIC_VIEW/Day]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/CITY
+            formula: '[PLUGS_SEMANTIC_VIEW/City]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/STORE_REGION
+            formula: '[PLUGS_SEMANTIC_VIEW/Store Region]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/PRODUCT_TYPE
+            formula: '[PLUGS_SEMANTIC_VIEW/Product Type]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/REVENUE
+            formula: '[PLUGS_SEMANTIC_VIEW/Revenue]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/COGS
+            formula: '[PLUGS_SEMANTIC_VIEW/Cogs]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/TOTAL_CUSTOMERS
+            formula: '[PLUGS_SEMANTIC_VIEW/Total Customers]'
+          - id: GyhzagOfMa
+            formula: '1'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/TOTAL_ORDERS
+            formula: '[PLUGS_SEMANTIC_VIEW/Total Orders]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/GROSS_MARGIN
+            formula: '[PLUGS_SEMANTIC_VIEW/Gross Margin]'
+          - id: inode-6mViAGR1qxtzBI16TydsFS/GROSS_PROFIT
+            formula: '[PLUGS_SEMANTIC_VIEW/Gross Profit]'
+        order:
+          - inode-6mViAGR1qxtzBI16TydsFS/DAY
+          - inode-6mViAGR1qxtzBI16TydsFS/CITY
+          - inode-6mViAGR1qxtzBI16TydsFS/STORE_REGION
+          - inode-6mViAGR1qxtzBI16TydsFS/PRODUCT_TYPE
+          - inode-6mViAGR1qxtzBI16TydsFS/REVENUE
+          - inode-6mViAGR1qxtzBI16TydsFS/COGS
+          - inode-6mViAGR1qxtzBI16TydsFS/TOTAL_CUSTOMERS
+          - GyhzagOfMa
+          - inode-6mViAGR1qxtzBI16TydsFS/TOTAL_ORDERS
+          - inode-6mViAGR1qxtzBI16TydsFS/GROSS_MARGIN
+          - inode-6mViAGR1qxtzBI16TydsFS/GROSS_PROFIT
+kind: data-model
